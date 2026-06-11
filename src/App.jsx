@@ -73,6 +73,21 @@ function App() {
         <div>
           <h1>Dynamic Resume Builder</h1>
           <p>Edit fields and see your resume update instantly.</p>
+          <a
+  href="https://www.linkedin.com/in/ankita-barahalikar"
+  target="_blank"
+  style={{
+    display: "inline-block",
+    marginTop: "10px",
+    padding: "10px 15px",
+    backgroundColor: "#0077b5",
+    color: "white",
+    textDecoration: "none",
+    borderRadius: "5px"
+  }}
+>
+  Visit My LinkedIn
+</a>
         </div>
         <button className="export-button" onClick={exportPdf}>Download PDF</button>
       </header>
